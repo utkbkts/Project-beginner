@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar{
+    width: 40%;
+    height: 100vh;
+    background:linear-gradient(to right,#234,#145214);
+}
+
+.navbar-item{
+    position: relative;
+    top: 25%;
+    left: 60%;
+    border: 1px solid grey;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+    background:linear-gradient(to top,rgb(87, 6, 90),#ab6cb8);
+    border-radius: 10px;
+
+}
+.navbar-item h5{
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+.navbar-item .spans{
+    position: relative;
+    left: 200px;
+    
+}
+.navbar-item .title{
+    position: relative;
+    right: -10px;
+    top: -2px;
+    white-space: nowrap;
+}
+.navbar-item .circle1{
+    border: 18px solid #fff;
+    border-radius: 150px;
+    display: inline-block;
+    margin: 1rem;
+}
+.navbar-item .circle2{
+    border: 18px solid #ab6cb8;
+    border-radius: 150px;
+    display: inline-block;
+    margin: 1rem;
+    border-width: 10px;
+    border-top: 9px solid #fff;
+    border-bottom: 11px solid #fff;
+
+
+}
+input{
+    display: block;
+    margin: 1rem;
+    outline: none;
+    border: 1px solid gray;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+.form{
+    position: relative;
+    bottom: 500px;
+    left: 60%;
+    
+}
+.birth{
+    display: flex;
+    position: relative;
+    right: 171px;
+}
+#MM,#YY,#CVC{
+    width: 50px;
+    height: 30px;
+    margin-top: 2rem;
+}
+#Cardholdername,#CardNumber{
+    height: 35px;
+    width: 205px;
+}
+.birth h3{
+    position: relative;
+    left: 175px;
+}
+h3{
+    margin-left: 13px;
+}
+.birth .CV{
+    position: relative;
+    left: 55px;
+}
+button{
+    position: relative;
+    left: 20px;
+    color: #fff;
+    background-color: #19051d;
+    padding: 1rem;
+    width: 300px;
+    border-radius: 10px;
+}
+.navbar-items{
+    position: relative;
+    top: 30%;
+    left: 70%;
+    border: 1px solid grey;
+    width: 260px;
+    height: 140px;
+    color: #fff;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+}
+.card{
+    background-color: rgb(54, 53, 53);
+    width: 258px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+.cards{
+    background-color: rgb(131, 127, 127);
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+.cards p{
+position: relative;
+left: 160px;
+top: 3px;
+}
+.line{
+    background-color: rgb(119, 116, 116);
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    opacity: 0.2;
+    border-radius: 10px;
+    
+}
+.line2{
+    background-color: rgb(119, 116, 116);
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+.line3{
+    background-color: rgb(119, 116, 116);
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+.line4{
+    background-color: rgb(119, 116, 116);
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    opacity: 0.2;
+    border-radius: 10px;
+}

@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    .form {
+        position: relative;
+        width: 10%;
+        height: 0vh;
+        top: 11px;
+    left: 45%;
+    }
+
+    .navbar {
+        width: 198%;
+
+        height: 50%;
+        z-index: -2;
+        position: relative;
+    }
+
+    .navbar-item {
+        left: 30%;
+    top: 140px;
+    }
+
+    .navbar-items {
+        left: 40%;
+        bottom: 91px;
+        z-index: -1;
+    }
+
+    .birth {
+    }
+
+    .birth h3 {
+       
+        white-space: pre;
+    }
+
+    .birth input {
+        position: relative;
+      
+    }
+
+    .birth .CV {
+       
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .form {
+        position: relative;
+        
+    }
+
+    .navbar {
+        position: relative;
+        z-index: -2;
+        
+    }
+
+    .navbar-item {
+       
+    }
+
+    .navbar-items {
+       
+        z-index: -1;
+    }
+
+    .birth {
+        
+    }
+
+    .birth h3 {
+        
+        white-space: pre;
+    }
+
+    .birth input {
+        position: relative;
+    }
+
+    .birth .CV {
+    }
+}
